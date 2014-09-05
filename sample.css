@@ -1,0 +1,132 @@
+ body {
+ 	font-family:Georgia;
+ 	font-size:14px;
+ 	line-height:1.2em;
+ }
+
+a {
+	color:#ff3aae;
+	text-decoration:none;
+	}
+
+a:hover {
+	text-decoration:underline;
+}
+#pageHeader {
+	height:100px;
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:#FFF;
+	text-align:center;
+	line-height: .5em;
+	border-bottom:1px solid #DDD;
+	border-top: 5px solid #ff3aae;
+	z-index:400;
+}
+
+#pageHeader h1 {
+	font-family: century gothic;
+	margin: 50px 0 0 0;
+}
+
+#pageHeader h2 {	
+	font-family:georgia;
+	font-size:16px;
+	font-weight:100;
+	font-style:italic;
+
+}
+
+h3 {
+	font-family: Century Gothic;
+	font-size:20px;
+	color:#ff3aae;
+}
+
+#quickSummary {
+margin:120px 0 0 200px;
+}
+
+
+
+#preamble, #explanation, #participation, #benefits, #requirements  {
+	width:400px;
+
+}
+
+#preamble {
+	position:absolute;
+	top: 180px;
+	left: 210px;
+}
+
+#explanation {
+	position:absolute;
+	top: 180px;
+	left: 620px;
+}
+
+#participation {
+	position:absolute;
+	top: 180px;
+	left: 1030px;}
+	
+#benefits {
+	position:absolute;
+	top: 180px;
+	left: 1440px;}
+
+#requirements {
+	position:absolute;
+	top: 180px;
+	left: 1850px;}
+
+#linkList {
+	width:190px;
+	position:absolute;
+	top: 100px;
+	left:0px;
+	margin: 0 0 0 5px;
+}
+
+#linkList ul {
+	margin: 0;
+	padding: 0;
+}
+
+#linkList ul li {
+	display:block;
+	background-color:#FFF;
+	font-family: Verdana;
+	font-size:12px;
+	border-bottom:1px solid #666;
+	padding:5px;
+}
+
+#linkList ul li a {
+	color:#AAA;
+	text-decoration:none;
+}
+
+#linkList ul li a:hover {
+	text-decoration:underline;
+}
+
+#linkList ul li:hover {
+	background-color:#000;
+	color:#FFF;
+}
+
+#footer {
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:25px;
+	background-color:#000;
+	text-align:center;
+	padding: 10px 0 0 0;
+	z-index:300;
+}
